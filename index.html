@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rajputana Tour &amp; Travellers | Rajasthan Taxi &amp; Tempo Traveller Booking Jaipur</title>
+  <meta name="description" content="Rajputana Tour & Travellers: Premium taxi, cab, outstation car rental and Tempo Traveller booking in Jaipur, Rajasthan & All India. 100% verified chauffeurs, instant quote, transparent rates.">
+  <meta name="keywords" content="Jaipur taxi service, Tempo Traveller Jaipur, Rajasthan tour packages, Jaipur airport cab, Innova Crysta hire Jaipur, outstation taxi Jaipur">
+  <meta name="theme-color" content="#0b2a55">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:title" content="Rajputana Tour & Travellers - Royal Rajasthan Travel Services">
+  <meta property="og:description" content="Book verified AC Cabs and Tempo Travellers for Jaipur sightseeing and Rajasthan tours. 24x7 service.">
+  <meta property="og:image" content="assets/hero_rajasthan.png">
+  <meta property="og:type" content="website">
+
+  <!-- Schema.org JSON-LD Structured Data for LocalBusiness & TaxiService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TaxiService",
+    "name": "Rajputana Tour & Travellers",
+    "image": "assets/logo.png",
+    "telephone": "+91-9829837082",
+    "email": "bannasandeep7568@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Opp. Sindhi Camp / Airport Link Road",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "302001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.9124,
+      "longitude": 75.7873
+    },
+    "url": "https://rajputanatour.com",
+    "priceRange": "₹₹",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "areaServed": ["Jaipur", "Rajasthan", "All India"],
+    "founder": [
+      { "@type": "Person", "name": "Kalu Singh Bankawat", "telephone": "+919829837082" },
+      { "@type": "Person", "name": "Kuldeep Singh Bankawat", "telephone": "+918107841422" }
+    ]
+  }
+  </script>
+
+  <!-- Leaflet CSS for Live GPS Map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/style.css?v=20261018_1130">
+</head>
+<body>
+
+  <!-- Top Bar: Hotline & Language Selector -->
+  <div class="top-notice-bar">
+    <div class="top-notice-inner">
+      <div class="top-contacts">
+        <span>📍 Jaipur, Rajasthan • All India Service</span>
+        <a href="tel:9829837082">📞 9829837082 (Kalu Singh)</a>
+        <a href="tel:8107841422">📞 8107841422 (Kuldeep Singh)</a>
+      </div>
+      <div class="top-actions">
+        <a href="mailto:bannasandeep7568@gmail.com" style="color:#cbd5e1; font-size:0.8rem;">✉️ bannasandeep7568@gmail.com</a>
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="hi">हिन्दी</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header & Navigation -->
+  <header class="main-header">
+    <div class="header-container">
+      <a href="#home" class="brand-wrapper">
+        <img src="assets/logo.png" alt="Rajputana Tour & Travellers Logo" class="brand-logo-img">
+        <div class="brand-text">
+          <span class="brand-title" data-en="RAJPUTANA TOUR &amp; TRAVELLERS" data-hi="राजपूताना टूर एंड ट्रेवलर्स">RAJPUTANA TOUR &amp; TRAVELLERS</span>
+          <span class="brand-subtitle" data-en="Rajasthan Taxi &amp; Tempo Traveller Booking" data-hi="राजस्थान टैक्सी एवं टेम्पो ट्रैवलर सेवा">Rajasthan Taxi &amp; Tempo Traveller Booking</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-en="Home" data-hi="होम">Home</a>
+        <a href="#fleet" class="nav-link" data-en="Our Fleet" data-hi="हमारी गाड़ियाँ">Our Fleet</a>
+        <a href="#services" class="nav-link" data-en="Services" data-hi="सेवाएं">Services</a>
+        <a href="#tours" class="nav-link" data-en="Tour Packages" data-hi="टूर पैकेज">Tour Packages</a>
+        <a href="#chauffeurs" class="nav-link" data-en="Chauffeurs" data-hi="ड्राइवर्स">Chauffeurs</a>
+        <a href="#routes" class="nav-link" data-en="Tariff &amp; Routes" data-hi="किराया व रूट">Tariff &amp; Routes</a>
+        <a href="#book" class="nav-link" data-en="Direct Booking" data-hi="बुकिंग करें">Direct Booking</a>
+        <a href="#my-bookings" class="nav-link" data-en="My Bookings &amp; GPS" data-hi="मेरी बुकिंग व GPS">My Bookings &amp; GPS</a>
+        <a href="#driver-app" class="nav-link" style="color:#1d4ed8;" data-en="Driver App" data-hi="ड्राइवर ऐप">Driver App</a>
+        <a href="#admin" class="nav-link" style="color:#b45309;" data-en="Admin Portal" data-hi="एडमिन पैनल">Admin Portal</a>
+      </nav>
+
+      <!-- Nav CTA -->
+      <div class="nav-cta-group">
+        <a href="https://wa.me/919829837082?text=Hello%20Rajputana%20Travellers,%20I%20would%20like%20to%20book%20a%20cab." target="_blank" class="btn btn-whatsapp btn-sm">
+          💬 WhatsApp
+        </a>
+        <a href="#book" class="btn btn-primary btn-sm" data-en="⚡ Book Cab" data-hi="⚡ टैक्सी बुक करें">
+          ⚡ Book Cab
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       VIEW: HOME
+       ========================================================================== -->
+  <main id="view-home" class="app-view">
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-content-grid">
+          
+          <!-- Hero Text -->
+          <div class="hero-text-col">
+            <div class="hero-badge" data-en="👑 10+ Years of Royal Hospitality • 15,000+ Happy Guests" data-hi="👑 10+ वर्षों का विश्वसनीय अनुभव • 15,000+ संतुष्ट यात्री">
+              👑 10+ Years of Royal Hospitality • 15,000+ Happy Guests
+            </div>
+            <h1 class="hero-title" data-en="Experience the Grandeur of <span>Rajasthan</span> with Royal Comfort" data-hi="शाही <span>राजस्थान</span> की अविस्मरणीय यात्रा — विश्वसनीय ड्राइवर और आरामदायक गाड़ियाँ">
+              Experience the Grandeur of <span>Rajasthan</span> with Royal Comfort
+            </h1>
+            <p class="hero-desc" data-en="Jaipur Local Sightseeing, Outstation Cabs, 24x7 Airport Transfers &amp; Luxury Tempo Travellers for All India Tours. Verified drivers, guaranteed AC, and 100% transparent rates." data-hi="जयपुर स्थानीय दर्शन, आउटस्टेशन टैक्सी, 24x7 एयरपोर्ट ट्रांसफर और ऑल इंडिया टूर के लिए लग्जरी टेम्पो ट्रैवलर। कोई छुपा शुल्क नहीं।">
+              Jaipur Local Sightseeing, Outstation Cabs, 24x7 Airport Transfers &amp; Luxury Tempo Travellers for All India Tours. Verified drivers, guaranteed AC, and 100% transparent rates.
+            </p>
+
+            <div style="display:flex; gap:14px; flex-wrap:wrap; margin-bottom:24px;">
+              <a href="#book" class="btn btn-primary btn-lg" data-en="Book Your Ride Now" data-hi="अभी टैक्सी बुक करें">Book Your Ride Now</a>
+              <a href="tel:9829837082" class="btn btn-navy btn-lg">📞 Call +91 9829837082</a>
+            </div>
+
+            <!-- Hero Stats -->
+            <div class="hero-stats-row">
+              <div class="stat-item">
+                <b>4.98 ★</b>
+                <span data-en="Google Customer Rating" data-hi="गूगल कस्टमर रेटिंग">Google Customer Rating</span>
+              </div>
+              <div class="stat-item">
+                <b>100%</b>
+                <span data-en="On-Time Cab Arrival" data-hi="समय पर आगमन गारंटी">On-Time Cab Arrival</span>
+              </div>
+              <div class="stat-item">
+                <b>₹0</b>
+                <span data-en="Hidden Surcharges" data-hi="कोई छुपा हुआ शुल्क नहीं">Hidden Surcharges</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Embedded Instant Fare Calculator -->
+          <div class="hero-calc-col">
+            <div class="quick-calc-card">
+              <div class="quick-calc-header">
+                <h3 data-en="⚡ Instant Fare Calculator" data-hi="⚡ तुरंत किराया कैलकुलेटर">⚡ Instant Fare Calculator</h3>
+                <p style="font-size:0.8rem; color:#64748b;" data-en="Get transparent estimate in seconds &amp; book directly" data-hi="सटीक किराया देखें और सीधे बुक करें">Get transparent estimate in seconds &amp; book directly</p>
+              </div>
+
+              <!-- Trip Type -->
+              <div class="trip-type-chips">
+                <div class="trip-chip hero-trip-chip active" data-type="outstation" onclick="window.selectHeroTripType('outstation')" data-en="Outstation" data-hi="आउटस्टेशन">Outstation</div>
+                <div class="trip-chip hero-trip-chip" data-type="local" onclick="window.selectHeroTripType('local')" data-en="Jaipur Local" data-hi="जयपुर दर्शन">Jaipur Local</div>
+                <div class="trip-chip hero-trip-chip" data-type="airport" onclick="window.selectHeroTripType('airport')" data-en="Airport" data-hi="एयरपोर्ट">Airport</div>
+              </div>
+
+              <div class="form-group">
+                <label data-en="Pickup Location" data-hi="पिकअप स्थान">Pickup Location</label>
+                <input type="text" id="heroCalcPickup" class="form-control" value="Jaipur (Hotel / Airport / Railway)" placeholder="Enter pickup address">
+              </div>
+
+              <div class="form-group">
+                <label data-en="Drop Destination / Tour" data-hi="गंतव्य स्थल / टूर">Drop Destination / Tour</label>
+                <input type="text" id="heroCalcDrop" class="form-control" value="Udaipur (Lake City)" placeholder="Enter destination city">
+              </div>
+
+              <!-- Drop Type & Duration Selector (Same Day Actual KM vs Multi-Day 250 KM/day) -->
+              <div class="form-group" id="heroDropModeGroup">
+                <label data-en="Drop Type &amp; Duration Mode" data-hi="ड्रॉप का प्रकार एवं अवधि">Drop Type &amp; Duration Mode</label>
+                <div class="trip-type-chips" style="margin-bottom:8px;">
+                  <div class="trip-chip hero-mode-chip active" data-mode="same_day" onclick="window.selectHeroTripMode('same_day')" data-en="🚗 Same Day Drop (Min. 250 KM Rule)" data-hi="🚗 सेम डे ड्रॉप (न्यूनतम 250 KM नियम)">🚗 Same Day Drop (Min. 250 KM Rule)</div>
+                  <div class="trip-chip hero-mode-chip" data-mode="multi_day" onclick="window.selectHeroTripMode('multi_day')" data-en="🗓️ Multi-Day Tour (250 KM/Day Rule)" data-hi="🗓️ मल्टी-डे टूर (250 KM/दिन)">🗓️ Multi-Day Tour (250 KM/Day Rule)</div>
+                </div>
+              </div>
+
+              <!-- Multi-day duration selector (shown when multi_day is active) -->
+              <div class="form-group" id="heroDurationGroup" style="display:none;">
+                <label data-en="Total Tour Days (Min. 250 KM/Day + Night Allowance Extra)" data-hi="कुल टूर दिवस (न्यूनतम 250 KM/दिन + नाइट चार्ज)">Tour Duration (Days &amp; Nights)</label>
+                <select id="heroTourDays" class="form-control">
+                  <option value="2">2 Days / 1 Night (Min. 500 KM + 1 Night Allowance)</option>
+                  <option value="3">3 Days / 2 Nights (Min. 750 KM + 2 Nights Allowance)</option>
+                  <option value="4" selected>4 Days / 3 Nights (Min. 1,000 KM + 3 Nights Allowance)</option>
+                  <option value="5">5 Days / 4 Nights (Min. 1,250 KM + 4 Nights Allowance)</option>
+                  <option value="7">7 Days / 6 Nights (Min. 1,750 KM + 6 Nights Allowance)</option>
+                  <option value="10">10 Days / 9 Nights (Min. 2,500 KM + 9 Nights Allowance)</option>
+                </select>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label data-en="Select Vehicle" data-hi="गाड़ी चुनें">Select Vehicle</label>
+                  <select id="heroCalcVehicle" class="form-control">
+                    <option value="innova-crysta">Innova Crysta (7+1 SUV - ₹18/KM)</option>
+                    <option value="swift-dzire">Swift Dzire (4+1 Sedan - ₹11/KM)</option>
+                    <option value="hyundai-aura">Hyundai Aura (4+1 Sedan - ₹11/KM)</option>
+                    <option value="tempo-traveller">Tempo Traveller (12 Seater - ₹24/KM)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label data-en="Travel Date" data-hi="यात्रा दिनांक">Travel Date</label>
+                  <input type="date" id="heroCalcDate" class="form-control">
+                </div>
+              </div>
+
+              <!-- Live Estimate Display with 'Up to ₹...' and Rule Badge -->
+              <div class="quick-estimate-box" style="flex-direction:column; align-items:flex-start; gap:8px; background:#f0fdf4; border:1px solid #86efac; padding:14px; border-radius:12px; margin-bottom:16px;">
+                <div style="display:flex; justify-content:space-between; width:100%; align-items:center;">
+                  <div>
+                    <span class="estimate-label" style="font-weight:700; color:#1e293b; display:block;" data-en="Guaranteed Fare Estimate:" data-hi="अनुमानित किराया दर:">Guaranteed Fare Estimate:</span>
+                    <span style="font-size:0.75rem; color:#64748b;">Instant SQLite Database Verified</span>
+                  </div>
+                  <span class="estimate-price" id="heroEstimatedPrice" style="font-size:1.35rem; font-weight:800; color:#059669;">Up to ₹7,200</span>
+                </div>
+                <div id="heroEstimateRuleBadge" style="font-size:0.78rem; line-height:1.4; color:#065f46; font-weight:600; background:#dcfce7; padding:6px 10px; border-radius:6px; width:100%; border-left:3px solid #059669;">
+                  Same Day Drop: Calculated on actual distance (395 KM @ ₹18/KM • Zero Night Charge)
+                </div>
+              </div>
+
+              <button class="btn btn-primary" id="heroBtnProceedBooking" style="width:100%; font-size:1.05rem;" data-en="Proceed to Book Ride ➔" data-hi="बुकिंग आगे बढ़ाएं ➔">
+                Proceed to Book Ride ➔
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 Pillars Feature Strip -->
+    <section class="features-strip">
+      <div class="container">
+        <div class="features-grid">
+          
+          <div class="feature-pill">
+            <div class="feature-icon-circle">🛡️</div>
+            <div class="feature-info">
+              <h4 data-en="Verified Chauffeurs" data-hi="सत्यापित ड्राइवर">Verified Chauffeurs</h4>
+              <p data-en="Courteous, police-verified, route experts" data-hi="अनुभवी, विनम्र और सुरक्षित">Courteous, police-verified, route experts</p>
+            </div>
+          </div>
+
+          <div class="feature-pill">
+            <div class="feature-icon-circle">❄️</div>
+            <div class="feature-info">
+              <h4 data-en="Sanitized Dual AC Cabs" data-hi="स्वच्छ एसी गाड़ियाँ">Sanitized Dual AC Cabs</h4>
+              <p data-en="Spotless interiors with bottled water" data-hi="चमचमाती गाड़ियाँ एवं शुद्ध पानी">Spotless interiors with bottled water</p>
+            </div>
+          </div>
+
+          <div class="feature-pill">
+            <div class="feature-icon-circle">💳</div>
+            <div class="feature-info">
+              <h4 data-en="Optional Advance Payment" data-hi="वैकल्पिक अग्रिम भुगतान">Optional Advance Payment</h4>
+              <p data-en="Pay online via Razorpay or cash to driver" data-hi="ऑनलाइन या सीधे ड्राइवर को भुगतान">Pay online via Razorpay or cash to driver</p>
+            </div>
+          </div>
+
+          <div class="feature-pill">
+            <div class="feature-icon-circle">📡</div>
+            <div class="feature-info">
+              <h4 data-en="Live GPS Tracking" data-hi="लाइव जीपीएस ट्रैकिंग">Live GPS Tracking</h4>
+              <p data-en="Real-time location sharing with family" data-hi="यात्रा की लाइव लोकेशन देखें">Real-time location sharing with family</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Vehicle Fleet Preview Section -->
+    <section class="section-pad" id="fleet">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" data-en="Our Royal Fleet" data-hi="हमारा वाहन बेड़ा">Our Royal Fleet</span>
+          <h2 class="section-title" data-en="Choose Your Preferred Travel Chariot" data-hi="अपनी सुविधानुसार गाड़ी चुनें">Choose Your Preferred Travel Chariot</h2>
+          <p class="section-subtitle" data-en="Every vehicle in our fleet is fully air-conditioned, commercially insured, and maintained to the highest hygiene standards." data-hi="हमारी सभी गाड़ियाँ पूर्णतः वातानुकूलित और उच्च सुरक्षा मानकों पर आधारित हैं।">
+            Every vehicle in our fleet is fully air-conditioned, commercially insured, and maintained to the highest hygiene standards.
+          </p>
+        </div>
+
+        <div class="fleet-grid" id="fleetContainer">
+          <!-- Populated by JavaScript from SQLite API -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section-pad" id="services" style="background:#ffffff;">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" data-en="Tailored Services" data-hi="हमारी सेवाएं">Tailored Services</span>
+          <h2 class="section-title" data-en="Comprehensive Travel Solutions Across India" data-hi="सम्पूर्ण भारत में विश्वसनीय यात्रा सेवाएं">Comprehensive Travel Solutions Across India</h2>
+          <p class="section-subtitle" data-en="From airport pickups in Jaipur to royal palaces across Rajasthan and corporate fleets for grand weddings." data-hi="जयपुर एयरपोर्ट पिकअप से लेकर राजस्थान के शाही महलों और शादियों तक।">
+            From airport pickups in Jaipur to royal palaces across Rajasthan and corporate fleets for grand weddings.
+          </p>
+        </div>
+
+        <div class="fleet-grid">
+          
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">🏰</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="Jaipur Local Sightseeing" data-hi="जयपुर स्थानीय दर्शन">Jaipur Local Sightseeing</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="Explore Amber Fort, Hawa Mahal, City Palace, Jal Mahal &amp; Jantar Mantar with our knowledgeable chauffeur-guides." data-hi="आमेर किला, हवा महल, सिटी पैलेस और जल महल का आरामदायक भ्रमण।">
+              Explore Amber Fort, Hawa Mahal, City Palace, Jal Mahal &amp; Jantar Mantar with our knowledgeable chauffeur-guides.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">Custom Sightseeing Plans • Best Rates Guaranteed</div>
+            <a href="#book" class="btn btn-sm btn-outline">Book Sightseeing ➔</a>
+          </div>
+
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">🛣️</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="Rajasthan Outstation Taxi" data-hi="आउटस्टेशन टैक्सी सेवा">Rajasthan Outstation Taxi</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="One-way &amp; round-trip cabs from Jaipur to Udaipur, Jodhpur, Jaisalmer, Pushkar, Mount Abu, Delhi and Agra." data-hi="जयपुर से उदयपुर, जोधपुर, जैसलमेर, पुष्कर, दिल्ली और आगरा हेतु वन-वे व राउंड ट्रिप।">
+              One-way &amp; round-trip cabs from Jaipur to Udaipur, Jodhpur, Jaisalmer, Pushkar, Mount Abu, Delhi and Agra.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">One-way &amp; Round-trip • Tailored Quote</div>
+            <a href="#book" class="btn btn-sm btn-outline">Book Outstation ➔</a>
+          </div>
+
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">✈️</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="Jaipur Airport Transfers (JAI)" data-hi="जयपुर एयरपोर्ट ट्रांसफर">Jaipur Airport Transfers (JAI)</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="24x7 punctual pickups and drops with flight tracking. Placard pickup at arrival gate for hassle-free start." data-hi="24x7 समय पर पिकअप व ड्रॉप। फ्लाइट ट्रैकिंग के साथ नेम-बोर्ड स्वागत।">
+              24x7 punctual pickups and drops with flight tracking. Placard pickup at arrival gate for hassle-free start.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">Punctual 24x7 Pickup • Transparent Billing</div>
+            <a href="#book" class="btn btn-sm btn-outline">Book Airport Ride ➔</a>
+          </div>
+
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">🚐</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="Luxury Tempo Travellers" data-hi="लग्जरी टेम्पो ट्रैवलर">Luxury Tempo Travellers</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="12, 17 &amp; 20 Seater Force Tempo Travellers with Maharaja recliner seats, roof AC, LED TV and huge luggage boot." data-hi="महाराजा पुशबैक सीटें, रूफ एसी, एलईडी स्क्रीन और बड़ा सामान स्थान।">
+              12, 17 &amp; 20 Seater Force Tempo Travellers with Maharaja recliner seats, roof AC, LED TV and huge luggage boot.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">Luxury Maharaja Recliner • Group Specials</div>
+            <a href="#book" class="btn btn-sm btn-outline">Book Tempo Traveller ➔</a>
+          </div>
+
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">🎉</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="Weddings &amp; Event Fleet" data-hi="विवाह एवं भव्य आयोजन फ्लीट">Weddings &amp; Event Fleet</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="Complete guest transportation for destination weddings in Jaipur, Udaipur, and Jodhpur. Dedicated transport manager." data-hi="शाही शादियों के लिए अतिथियों के आवागमन हेतु विशेष गाड़ियाँ व समन्वयक।">
+              Complete guest transportation for destination weddings in Jaipur, Udaipur, and Jodhpur. Dedicated transport manager.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">Grand Convoys • Tailored Itineraries</div>
+            <a href="tel:9829837082" class="btn btn-sm btn-outline">Discuss Event Fleet ➔</a>
+          </div>
+
+          <div class="card" style="padding:24px; border:1px solid #e2e8f0; border-radius:16px;">
+            <div style="font-size:2rem; margin-bottom:12px;">🌍</div>
+            <h3 style="font-size:1.2rem; color:#0b2a55; margin-bottom:8px;" data-en="International Tourist Services" data-hi="विदेशी पर्यटकों हेतु सेवा">International Tourist Services</h3>
+            <p style="font-size:0.88rem; color:#64748b; margin-bottom:14px;" data-en="English-speaking polite drivers, international card payments, packaged mineral water, and custom heritage itineraries." data-hi="अंग्रेजी भाषी ड्राइवर, अंतरराष्ट्रीय कार्ड स्वीकृति, मिनरल वाटर।">
+              English-speaking polite drivers, international card payments, packaged mineral water, and custom heritage itineraries.
+            </p>
+            <div style="font-weight:700; color:#059669; font-size:0.92rem; margin-bottom:12px;">Verified Chauffeur • Custom Heritage Tour</div>
+            <a href="#book" class="btn btn-sm btn-outline">Plan International Tour ➔</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section class="section-pad" id="tours">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" data-en="Curated Tours" data-hi="लोकप्रिय टूर पैकेज">Curated Tours</span>
+          <h2 class="section-title" data-en="Handcrafted Rajasthan Tour Circuits" data-hi="राजस्थान के सबसे लोकप्रिय टूर सर्किट">Handcrafted Rajasthan Tour Circuits</h2>
+          <p class="section-subtitle" data-en="All tours include private vehicle, commercial fuel, state taxes, toll permits, and professional driver allowance." data-hi="सभी टूर में निजी गाड़ी, ईंधन, टोल, राज्य कर एवं ड्राइवर भत्ता शामिल है।">
+            All tours include private vehicle, commercial fuel, state taxes, toll permits, and professional driver allowance.
+          </p>
+        </div>
+
+        <div class="tours-grid" id="toursContainer">
+          <!-- Populated by JavaScript from RTT_DATA.tourPackages -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Routes & Tariff Table Section -->
+    <section class="section-pad" id="routes" style="background:#ffffff;">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" data-en="Rajasthan Travel Guide" data-hi="राजस्थान यात्रा गाइड">Rajasthan Travel Guide</span>
+          <h2 class="section-title" data-en="Popular Rajasthan Outstation Taxi Routes" data-hi="जयपुर से प्रमुख आउटस्टेशन रूट एवं यात्रा समय">Popular Rajasthan Outstation Taxi Routes</h2>
+          <p class="section-subtitle" data-en="Comprehensive distance, duration &amp; route planner with customized quotation assistance." data-hi="दूरी, यात्रा समय और कस्टमाइज्ड कोटेशन के साथ सम्पूर्ण यात्रा गाइड।">
+            Comprehensive distance, duration &amp; route planner with customized quotation assistance.
+          </p>
+        </div>
+
+        <div class="routes-table-wrap">
+          <table class="routes-table">
+            <thead>
+              <tr>
+                <th>Route From ➔ To</th>
+                <th>Distance (KM)</th>
+                <th>Estimated Time</th>
+                <th>Toll Information</th>
+                <th>Recommended Fleet</th>
+                <th>Quotation &amp; Booking</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Jaipur ➔ Pushkar &amp; Ajmer</strong></td>
+                <td>145 KM</td>
+                <td>2.5 Hours</td>
+                <td>Expressway Toll Applicable</td>
+                <td><strong style="color:#0b2a55;">Swift Dzire / Innova</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Udaipur (Lake City)</strong></td>
+                <td>395 KM</td>
+                <td>6.5 Hours</td>
+                <td>4-Lane NH Highway</td>
+                <td><strong style="color:#0b2a55;">Innova Crysta / Sedan</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Jodhpur (Sun City)</strong></td>
+                <td>335 KM</td>
+                <td>5.5 Hours</td>
+                <td>NH Highway Toll</td>
+                <td><strong style="color:#0b2a55;">Innova Crysta / Dzire</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Jaisalmer (Thar Desert)</strong></td>
+                <td>560 KM</td>
+                <td>9.5 Hours</td>
+                <td>Desert Highway Toll</td>
+                <td><strong style="color:#0b2a55;">Toyota Innova Crysta</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Ranthambore (Tiger Safari)</strong></td>
+                <td>160 KM</td>
+                <td>3.5 Hours</td>
+                <td>State Highway Route</td>
+                <td><strong style="color:#0b2a55;">Maruti Dzire / Innova</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Delhi NCR (Airport/City)</strong></td>
+                <td>275 KM</td>
+                <td>4.5 Hours</td>
+                <td>Delhi-Jaipur Expressway</td>
+                <td><strong style="color:#0b2a55;">Innova Crysta / Aura</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Agra (Taj Mahal)</strong></td>
+                <td>240 KM</td>
+                <td>4.0 Hours</td>
+                <td>Bharatpur Express Toll</td>
+                <td><strong style="color:#0b2a55;">Swift Dzire / Innova</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+              <tr>
+                <td><strong>Jaipur ➔ Khatu Shyam Ji &amp; Salasar</strong></td>
+                <td>180 KM</td>
+                <td>3.5 Hours</td>
+                <td>Sikar Express Toll</td>
+                <td><strong style="color:#0b2a55;">Innova / Tempo Traveller</strong></td>
+                <td><a href="#book" class="btn btn-sm btn-primary">Get Custom Quote ➔</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Trust Section -->
+    <section class="section-pad">
+      <div class="container">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center;">
+          <div>
+            <span class="section-tag">About Rajputana Tour &amp; Travellers</span>
+            <h2 class="section-title">Rooted in Rajasthan's Tradition of Warm Hospitality</h2>
+            <p style="margin-bottom:16px;">
+              Founded by <strong>Kalu Singh Bankawat</strong> and <strong>Kuldeep Singh Bankawat</strong> in Jaipur, Rajputana Tour &amp; Travellers has been serving travelers from across India and around the globe for over a decade.
+            </p>
+            <p style="margin-bottom:20px;">
+              Whether you need an early-morning pickup from Jaipur International Airport, an adventurous camel safari expedition in Jaisalmer, or a luxury convoy of Tempo Travellers for a royal destination wedding, our dedicated team guarantees comfort, safety, and authentic Rajputana pride.
+            </p>
+            <div style="display:flex; gap:20px;">
+              <div>
+                <strong style="font-size:1.6rem; color:#0b2a55; display:block;">15,000+</strong>
+                <span style="font-size:0.85rem; color:#64748b;">Trips Completed</span>
+              </div>
+              <div>
+                <strong style="font-size:1.6rem; color:#d97706; display:block;">24x7</strong>
+                <span style="font-size:0.85rem; color:#64748b;">Control Room Support</span>
+              </div>
+              <div>
+                <strong style="font-size:1.6rem; color:#0b2a55; display:block;">100%</strong>
+                <span style="font-size:0.85rem; color:#64748b;">Comfort Guaranteed</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="assets/hero_rajasthan.png" alt="Rajputana Travel Rajasthan" style="border-radius:20px; box-shadow:var(--shadow-lg);">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dedicated 3D Chauffeurs & Founders Showcase (Only Kalu Singh Bankawat & Kuldeep Singh Bankawat) -->
+    <section class="section-pad chauffeurs-3d-section" id="chauffeurs">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag" data-en="Verified Royal Chauffeurs &amp; Founders" data-hi="सत्यापित शाही ड्राइवर एवं संस्थापक">Verified Royal Chauffeurs &amp; Founders</span>
+          <h2 class="section-title" data-en="Meet Our Dedicated Chauffeurs &amp; Founders" data-hi="हमारे समर्पित चालक एवं संस्थापक">
+            Meet Our Dedicated Chauffeurs &amp; Founders
+          </h2>
+          <p class="section-subtitle" data-en="Every journey is personally driven and overseen by our verified co-founders with 10+ years of route excellence." data-hi="प्रत्येक यात्रा 10+ वर्षों के अनुभवी एवं पुलिस-सत्यापित संस्थापकों द्वारा व्यक्तिगत रूप से संचालित की जाती है।">
+            Every journey is personally driven and overseen by our verified co-founders with 10+ years of route excellence.
+          </p>
+        </div>
+
+        <div class="chauffeur-3d-grid">
+          
+          <!-- Chauffeur 1: Kalu Singh Bankawat -->
+          <div class="chauffeur-3d-card card-3d-wrap">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                <div class="chauffeur-avatar-circle">👑</div>
+                <span style="background:#ecfdf5; color:#065f46; font-size:0.75rem; font-weight:700; padding:4px 12px; border-radius:999px; border:1px solid #a7f3d0;">
+                  🟢 Available for Booking
+                </span>
+              </div>
+              <h3 style="color:#0b2a55; font-size:1.4rem; margin-bottom:4px; font-weight:800;">Kalu Singh Bankawat</h3>
+              <div style="font-size:0.88rem; color:#d97706; font-weight:700; margin-bottom:14px;">Lead Chauffeur &amp; Co-Founder</div>
+              
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; background:#f8fafc; padding:12px; border-radius:12px; margin-bottom:16px; border:1px solid #e2e8f0; font-size:0.84rem;">
+                <div>⭐ <strong>4.98 Rating</strong> (1,420+ Trips)</div>
+                <div>🛡️ <strong>Police Verified</strong></div>
+                <div>🚘 <strong>Innova Crysta</strong></div>
+                <div>🗣️ <strong>Hindi, Rajasthani, English</strong></div>
+              </div>
+
+              <p style="font-size:0.86rem; color:#64748b; line-height:1.5; margin-bottom:20px;">
+                Specialist in family outstation tours across Udaipur, Jodhpur, and Jaisalmer desert circuits with exceptional route knowledge and authentic Rajputana hospitality.
+              </p>
+            </div>
+
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="tel:9829837082" class="btn btn-primary" style="flex:1; text-align:center;">📞 Call 9829837082</a>
+              <a href="https://wa.me/919829837082?text=Namaste%20Kalu%20Singh%20ji,%20I%20would%20like%20to%20book%20a%20cab%20tour" target="_blank" class="btn btn-whatsapp" style="flex:1; text-align:center;">💬 WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Chauffeur 2: Kuldeep Singh Bankawat -->
+          <div class="chauffeur-3d-card card-3d-wrap">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                <div class="chauffeur-avatar-circle">🛡️</div>
+                <span style="background:#ecfdf5; color:#065f46; font-size:0.75rem; font-weight:700; padding:4px 12px; border-radius:999px; border:1px solid #a7f3d0;">
+                  🟢 Available for Booking
+                </span>
+              </div>
+              <h3 style="color:#0b2a55; font-size:1.4rem; margin-bottom:4px; font-weight:800;">Kuldeep Singh Bankawat</h3>
+              <div style="font-size:0.88rem; color:#d97706; font-weight:700; margin-bottom:14px;">Senior Route Specialist &amp; Co-Founder</div>
+              
+              <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; background:#f8fafc; padding:12px; border-radius:12px; margin-bottom:16px; border:1px solid #e2e8f0; font-size:0.84rem;">
+                <div>⭐ <strong>4.97 Rating</strong> (1,280+ Trips)</div>
+                <div>🛡️ <strong>Police Verified</strong></div>
+                <div>🚘 <strong>Prime Sedan / SUV</strong></div>
+                <div>🗣️ <strong>Hindi, English, Rajasthani</strong></div>
+              </div>
+
+              <p style="font-size:0.86rem; color:#64748b; line-height:1.5; margin-bottom:20px;">
+                Expert in Golden Triangle (Jaipur-Agra-Delhi), airport fast transfers, and customized Rajasthan heritage circuits for domestic and international travelers.
+              </p>
+            </div>
+
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a href="tel:8107841422" class="btn btn-navy" style="flex:1; text-align:center;">📞 Call 8107841422</a>
+              <a href="https://wa.me/918107841422?text=Namaste%20Kuldeep%20Singh%20ji,%20I%20would%20like%20to%20inquire%20about%20a%20taxi%20booking" target="_blank" class="btn btn-whatsapp" style="flex:1; text-align:center;">💬 WhatsApp</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==========================================================================
+       VIEW: DIRECT BOOKING WIZARD (#book)
+       ========================================================================== -->
+  <main id="view-book" class="app-view" style="display:none;">
+    <section class="booking-section">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:30px;">
+          <span class="section-tag" data-en="Instant Direct Booking" data-hi="त्वरित सीधी बुकिंग">Instant Direct Booking</span>
+          <h2 class="section-title" data-en="Reserve Your Royal Journey in 4 Simple Steps" data-hi="मात्र 4 चरणों में अपनी यात्रा बुक करें">Reserve Your Royal Journey in 4 Simple Steps</h2>
+          <p class="section-subtitle" data-en="Advance payment is optional. Receive instant WhatsApp confirmation &amp; chauffeur details." data-hi="अग्रिम भुगतान वैकल्पिक है। तुरंत व्हाट्सएप पर पुष्टि प्राप्त करें।">
+            Advance payment is optional. Receive instant WhatsApp confirmation &amp; chauffeur details.
+          </p>
+        </div>
+
+        <div class="booking-wizard-card">
+          
+          <!-- Wizard Step Navigation Header -->
+          <div class="wizard-steps-header">
+            <div class="wizard-step-node active" data-step="1">
+              <span class="step-num">1</span>
+              <span>Trip Details</span>
+            </div>
+            <div class="wizard-step-node" data-step="2">
+              <span class="step-num">2</span>
+              <span>Vehicle &amp; Fare</span>
+            </div>
+            <div class="wizard-step-node" data-step="3">
+              <span class="step-num">3</span>
+              <span>Passenger &amp; OTP</span>
+            </div>
+            <div class="wizard-step-node" data-step="4">
+              <span class="step-num">4</span>
+              <span>Payment &amp; Confirm</span>
+            </div>
+          </div>
+
+          <!-- Wizard Body -->
+          <div class="wizard-body">
+            
+            <!-- STEP 1: Trip Details -->
+            <div class="wizard-pane active" data-pane="1">
+              <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:16px;">Step 1: Choose Your Trip Itinerary</h3>
+              
+              <div class="trip-type-chips" style="margin-bottom:20px;">
+                <div class="trip-chip wiz-trip-chip active" data-type="outstation" onclick="window.selectWizardTripType('outstation')">Outstation Trip</div>
+                <div class="trip-chip wiz-trip-chip" data-type="local" onclick="window.selectWizardTripType('local')">Jaipur Local Sightseeing</div>
+                <div class="trip-chip wiz-trip-chip" data-type="airport" onclick="window.selectWizardTripType('airport')">Airport Transfer</div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Pickup Location / Address *</label>
+                  <input type="text" id="wizPickup" class="form-control" value="Jaipur (Sindhi Camp / Airport / Hotel)" placeholder="e.g. C-Scheme, Jaipur">
+                </div>
+                <div class="form-group">
+                  <label>Drop Destination / Tour Circuit *</label>
+                  <input type="text" id="wizDrop" class="form-control" value="Udaipur City Palace" placeholder="e.g. Udaipur / Jodhpur / Pushkar">
+                </div>
+              </div>
+
+              <!-- Wizard Drop Mode & Duration Selector -->
+              <div class="form-group" id="wizDropModeGroup">
+                <label data-en="Trip Drop Mode &amp; Duration *" data-hi="यात्रा प्रकार एवं अवधि *">Trip Drop Mode &amp; Duration *</label>
+                <div class="trip-type-chips" style="margin-bottom:8px;">
+                  <div class="trip-chip wiz-mode-chip active" data-mode="same_day" onclick="window.selectWizardTripMode('same_day')" data-en="🚗 Same Day Drop (Min. 250 KM Rule)" data-hi="🚗 सेम डे ड्रॉप (न्यूनतम 250 KM नियम)">🚗 Same Day Drop (Min. 250 KM Rule)</div>
+                  <div class="trip-chip wiz-mode-chip" data-mode="multi_day" onclick="window.selectWizardTripMode('multi_day')" data-en="🗓️ Multi-Day Tour (250 KM/Day Rule)" data-hi="🗓️ मल्टी-डे टूर (250 KM/दिन)">🗓️ Multi-Day Tour (250 KM/Day Rule)</div>
+                </div>
+              </div>
+
+              <div class="form-group" id="wizDurationGroup" style="display:none;">
+                <label data-en="Tour Duration (Days &amp; Nights) *" data-hi="टूर अवधि (दिन एवं रातें) *">Tour Duration (Days &amp; Nights) *</label>
+                <select id="wizTourDays" class="form-control">
+                  <option value="2">2 Days / 1 Night (Min. 500 KM Running + 1 Night Allowance)</option>
+                  <option value="3">3 Days / 2 Nights (Min. 750 KM Running + 2 Nights Allowance)</option>
+                  <option value="4" selected>4 Days / 3 Nights (Min. 1,000 KM Running + 3 Nights Allowance)</option>
+                  <option value="5">5 Days / 4 Nights (Min. 1,250 KM Running + 4 Nights Allowance)</option>
+                  <option value="7">7 Days / 6 Nights (Min. 1,750 KM Running + 6 Nights Allowance)</option>
+                  <option value="10">10 Days / 9 Nights (Min. 2,500 KM Running + 9 Nights Allowance)</option>
+                </select>
+              </div>
+
+              <!-- Live Estimate Preview in Step 1 -->
+              <div id="wizStep1EstimateBox" style="background:#f0fdf4; border:1px solid #86efac; border-radius:10px; padding:12px 16px; margin:14px 0; display:flex; justify-content:space-between; align-items:center;">
+                <div>
+                  <span style="font-size:0.75rem; color:#166534; font-weight:700; text-transform:uppercase; letter-spacing:0.5px; display:block;">Live Tariff Calculation:</span>
+                  <span id="wizStep1RuleText" style="font-size:0.8rem; color:#065f46; font-weight:600; line-height:1.35;">Same Day Drop (Min. 250 KM Rule)</span>
+                </div>
+                <span id="wizStep1PriceUpto" style="font-size:1.3rem; font-weight:800; color:#059669; white-space:nowrap; margin-left:12px;">Up to ₹7,150</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Travel Date *</label>
+                  <input type="date" id="wizDate" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Pickup Time *</label>
+                  <select id="wizTime" class="form-control">
+                    <option value="06:00 AM">06:00 AM (Early Departure)</option>
+                    <option value="07:00 AM">07:00 AM</option>
+                    <option value="08:00 AM">08:00 AM</option>
+                    <option value="09:00 AM" selected>09:00 AM (Standard Sightseeing)</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="02:00 PM">02:00 PM (Afternoon)</option>
+                    <option value="08:00 PM">08:00 PM (Evening/Night)</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Number of Passengers *</label>
+                <select id="wizPax" class="form-control">
+                  <option value="1">1 Passenger (Solo Traveler)</option>
+                  <option value="2">2 Passengers (Couple)</option>
+                  <option value="3">3 Passengers</option>
+                  <option value="4" selected>4 Passengers (Standard Sedan Capacity)</option>
+                  <option value="6">6 Passengers (SUV Capacity)</option>
+                  <option value="7">7 Passengers (Innova Crysta)</option>
+                  <option value="12">12+ Passengers (Tempo Traveller Required)</option>
+                </select>
+              </div>
+
+              <div style="text-align:right; margin-top:24px;">
+                <button class="btn btn-primary btn-lg" id="btnStep1Next">Next: Select Vehicle ➔</button>
+              </div>
+            </div>
+
+            <!-- STEP 2: Vehicle Selection & Live Fare -->
+            <div class="wizard-pane" data-pane="2">
+              <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:12px;">Step 2: Select Vehicle &amp; Review Fare Breakdown</h3>
+              
+              <!-- Route & Duration Summary Strip on Step 2 -->
+              <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; padding:10px 14px; margin-bottom:14px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+                <div>
+                  <span style="font-size:0.75rem; color:#64748b; font-weight:700; text-transform:uppercase;">Selected Journey &amp; Duration:</span>
+                  <span id="step2RouteSummary" style="font-size:0.9rem; font-weight:700; color:#0b2a55; display:block;">Jaipur ➔ Udaipur City Palace • Multi-Day Tour</span>
+                </div>
+                <button type="button" class="btn btn-sm btn-outline" id="btnStep2Modify" style="padding:4px 12px; font-size:0.78rem;">✏️ Modify Route / Days</button>
+              </div>
+
+              <p style="font-size:0.85rem; color:#64748b; margin-bottom:16px;">Select the vehicle suitable for your group size. Dynamic SQLite pricing:</p>
+              
+              <div class="booking-veh-grid" id="wizVehGrid">
+                <!-- Injected via JavaScript from RTT_DATA.fleet -->
+              </div>
+
+              <!-- Transparent Fare Breakdown Card -->
+              <div class="fare-breakdown-box">
+                <h4 style="font-size:1rem; color:#0b2a55; margin-bottom:10px;">Transparent Fare Breakdown</h4>
+                
+                <div class="fare-breakdown-row">
+                  <span>Pricing Rule &amp; Billable Allowance:</span>
+                  <span id="breakdownRuleBadge" style="font-weight:700; color:#0b2a55;">Same Day Actual KM</span>
+                </div>
+                <div class="fare-breakdown-row">
+                  <span>Base Distance Tariff &amp; Fuel:</span>
+                  <span id="breakdownBaseFare">Up to ₹4,350</span>
+                </div>
+                <div class="fare-breakdown-row">
+                  <span>Driver Night Allowance Extra:</span>
+                  <span id="breakdownNightAllowance" style="color:#059669; font-weight:600;">₹0 (Same Day Drop)</span>
+                </div>
+                <div class="fare-breakdown-row">
+                  <span>Chauffeur Day Allowance &amp; Sanitization:</span>
+                  <span style="color:#059669; font-weight:600;">INCLUDED</span>
+                </div>
+                <div class="fare-breakdown-row total-row">
+                  <span>Total Estimated Trip Fare:</span>
+                  <span id="breakdownTotalFare" style="color:#059669; font-weight:800; font-size:1.2rem;">Up to ₹4,350</span>
+                </div>
+                <div class="fare-breakdown-row" style="color:#d97706; font-weight:700;">
+                  <span>Payment Preference:</span>
+                  <span id="breakdownAdvanceFare">Optional Advance (Pay to Driver)</span>
+                </div>
+              </div>
+
+              <div style="display:flex; justify-content:space-between; margin-top:20px;">
+                <button class="btn btn-outline" id="btnStep2Back">← Back</button>
+                <button class="btn btn-primary btn-lg" id="btnStep2Next">Next: Passenger Details ➔</button>
+              </div>
+            </div>
+
+            <!-- STEP 3: Passenger Information & OTP Verification -->
+            <div class="wizard-pane" data-pane="3">
+              <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:12px;">Step 3: Passenger Information &amp; Mobile Verification</h3>
+              <p style="font-size:0.85rem; color:#64748b; margin-bottom:18px;">We use OTP verification to prevent fake spam bookings and dispatch driver instantly.</p>
+
+              <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" id="wizCustName" class="form-control" placeholder="e.g. Vikramaditya Singh" value="Vikramaditya Singh">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label>10-Digit Mobile Number (For Driver Call &amp; WhatsApp) *</label>
+                  <div style="display:flex; gap:8px;">
+                    <input type="tel" id="wizCustPhone" class="form-control" placeholder="98XXXXXXXX" value="9829123456" maxlength="10">
+                    <button class="btn btn-navy btn-sm" id="btnSendOtp" type="button" style="white-space:nowrap;">Get OTP</button>
+                  </div>
+                  <span id="otpStatusBadge" style="font-size:0.75rem; color:#64748b; display:block; margin-top:4px;">Click 'Get OTP' to verify mobile number</span>
+                </div>
+
+                <div class="form-group">
+                  <label>Email Address (For Tax Invoice &amp; Voucher)</label>
+                  <input type="email" id="wizCustEmail" class="form-control" placeholder="your.name@example.com" value="vikram@example.com">
+                </div>
+              </div>
+
+              <!-- OTP Input Row -->
+              <div id="otpInputSection" style="display:none; background:#fef3c7; border:1px solid #fde68a; border-radius:10px; padding:14px; margin-bottom:16px;">
+                <label style="font-size:0.82rem; font-weight:700; color:#92400e;">Enter 4-Digit Verification OTP received on your mobile:</label>
+                <div style="display:flex; gap:10px; max-width:280px; margin-top:6px;">
+                  <input type="text" id="wizOtpField" class="form-control" placeholder="1234" maxlength="4" style="text-align:center; font-size:1.2rem; font-weight:700; letter-spacing:4px;">
+                  <button class="btn btn-primary btn-sm" id="btnVerifyOtp" type="button">Verify</button>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Special Instructions (Optional)</label>
+                <textarea id="wizNotes" class="form-control" placeholder="e.g. Baby seat required, pickup from Terminal 2 Gate 3, international tourist guidance" style="min-height:70px;"></textarea>
+              </div>
+
+              <div style="display:flex; justify-content:space-between; margin-top:20px;">
+                <button class="btn btn-outline" id="btnStep3Back">← Back</button>
+                <button class="btn btn-primary btn-lg" id="btnStep3Next">Next: Choose Payment Option ➔</button>
+              </div>
+            </div>
+
+            <!-- STEP 4: Payment Option & Confirmation -->
+            <div class="wizard-pane" data-pane="4">
+              <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:8px;">Step 4: Select Payment Option</h3>
+              <p style="font-size:0.85rem; color:#64748b; margin-bottom:16px;">
+                As per our client policy, <strong>advance payment is completely OPTIONAL</strong>! Choose what's convenient:
+              </p>
+
+              <div class="payment-options-grid">
+                
+                <div class="pay-card-option active" data-mode="advance_20">
+                  <div style="font-size:1.8rem; margin-bottom:6px;">💳</div>
+                  <h5>Pay 20% Advance Online</h5>
+                  <p style="color:#64748b;">Lock booking via Razorpay (UPI, GPay, Card). Balance to driver at pickup.</p>
+                  <div style="margin-top:8px; font-weight:700; color:#d97706;">Recommended</div>
+                </div>
+
+                <div class="pay-card-option" data-mode="full">
+                  <div style="font-size:1.8rem; margin-bottom:6px;">⚡</div>
+                  <h5>Pay 100% Full Online</h5>
+                  <p style="color:#64748b;">Zero cash hassle during the journey. Instant tax invoice receipt.</p>
+                </div>
+
+                <div class="pay-card-option" data-mode="cash">
+                  <div style="font-size:1.8rem; margin-bottom:6px;">💵</div>
+                  <h5>Pay to Driver at Pickup</h5>
+                  <p style="color:#64748b;">Zero advance needed! Pay full amount directly to driver in Cash or UPI on vehicle arrival.</p>
+                </div>
+
+              </div>
+
+              <!-- Payment Summary Box -->
+              <div style="background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:18px; margin:20px 0;">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                  <div>
+                    <span style="font-size:0.82rem; color:#64748b;">Payable Right Now:</span>
+                    <h3 id="payDueAmountDisplay" style="color:#0b2a55; font-size:1.6rem; font-family:'Cinzel', serif;">₹1,638</h3>
+                  </div>
+                  <p id="paySummaryText" style="font-size:0.82rem; max-width:400px; color:#475569; text-align:right;">
+                    Pay optional 20% advance online. Balance payable directly to your chauffeur.
+                  </p>
+                </div>
+              </div>
+
+              <div style="display:flex; justify-content:space-between; margin-top:20px;">
+                <button class="btn btn-outline" id="btnStep4Back">← Back</button>
+                <button class="btn btn-primary btn-lg" id="btnConfirmBookingFinal">
+                  Confirm &amp; Finalize Booking ➔
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       VIEW: CUSTOMER MY BOOKINGS & LIVE GPS MAP (#my-bookings)
+       ========================================================================== -->
+  <main id="view-my-bookings" class="app-view" style="display:none;">
+    <section class="section-pad">
+      <div class="container" style="max-width:960px;">
+        <div class="section-head" style="margin-bottom:30px;">
+          <span class="section-tag">Customer Self-Service Portal</span>
+          <h2 class="section-title">Track Bookings &amp; Live Vehicle GPS</h2>
+          <p class="section-subtitle">Enter your mobile number to view your trip itinerary, driver contact, and real-time cab tracking.</p>
+        </div>
+
+        <!-- Phone Lookup Card -->
+        <div class="card" style="background:#fff; border-radius:14px; padding:20px; margin-bottom:24px; border:1px solid #e2e8f0;">
+          <label style="font-weight:700; color:#0b2a55; display:block; margin-bottom:6px;">Enter Your Registered Mobile Number:</label>
+          <div style="display:flex; gap:10px;">
+            <input type="tel" id="customerLoginPhone" class="form-control" placeholder="e.g. 9876543210" value="9876543210" style="max-width:320px;">
+            <button class="btn btn-navy" id="btnCustomerSearchBookings">View My Trips</button>
+          </div>
+        </div>
+
+        <!-- Active Trip Live Tracker Section -->
+        <div id="activeTripTrackerSection" style="display:none;" class="card portal-card">
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; margin-bottom:16px;">
+            <div>
+              <span style="font-size:0.75rem; background:#eff6ff; color:#1d4ed8; padding:3px 8px; border-radius:999px; font-weight:700;">ACTIVE TRIP TRACKING</span>
+              <h3 style="color:#0b2a55; font-size:1.35rem; margin-top:4px;">Booking <span id="trackBookingId">RTT-2026-1042</span></h3>
+            </div>
+            <div style="text-align:right;">
+              <span style="font-size:0.8rem; color:#64748b;">Status:</span>
+              <strong id="trackStatusText" style="color:#d97706; display:block; font-size:1.05rem;">Driver Assigned</strong>
+            </div>
+          </div>
+
+          <!-- 5 Stage Interactive Progress Tracker -->
+          <div class="timeline-tracker">
+            <div class="timeline-node done" id="trackNode1">
+              <div class="timeline-icon-box">✓</div>
+              <p>Booked</p>
+            </div>
+            <div class="timeline-node current" id="trackNode2">
+              <div class="timeline-icon-box">👤</div>
+              <p>Driver Assigned</p>
+            </div>
+            <div class="timeline-node" id="trackNode3">
+              <div class="timeline-icon-box">🚖</div>
+              <p>On the Way</p>
+            </div>
+            <div class="timeline-node" id="trackNode4">
+              <div class="timeline-icon-box">🏁</div>
+              <p>Trip Started</p>
+            </div>
+            <div class="timeline-node" id="trackNode5">
+              <div class="timeline-icon-box">🎉</div>
+              <p>Completed</p>
+            </div>
+          </div>
+
+          <!-- Driver Info Card -->
+          <div style="display:flex; justify-content:space-between; align-items:center; background:#f8fafc; border:1px solid #e2e8f0; border-radius:12px; padding:14px; margin-bottom:16px; flex-wrap:wrap; gap:12px;">
+            <div>
+              <span style="font-size:0.75rem; color:#64748b; text-transform:uppercase;">Assigned Chauffeur</span>
+              <h4 id="trackDriverName" style="color:#0b2a55; font-size:1.05rem;">Kalu Singh (+91 9829837082)</h4>
+              <span id="trackVehiclePlate" style="font-size:0.82rem; color:#1d4ed8; font-weight:600;">Toyota Innova Crysta (RJ 14 TA 7890)</span>
+            </div>
+            <div style="display:flex; gap:8px;">
+              <a href="tel:9829837082" class="btn btn-sm btn-navy">📞 Call Driver</a>
+              <a href="https://wa.me/919829837082" class="btn btn-sm btn-whatsapp">💬 WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Leaflet Live Map -->
+          <div style="position:relative;">
+            <div style="position:absolute; top:12px; left:12px; z-index:400; background:#ffffff; padding:6px 12px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.15); font-size:0.75rem; font-weight:700; color:#0b2a55;">
+              🟢 LIVE GPS SIMULATION (Jaipur Route)
+            </div>
+            <div id="trackingMap"></div>
+          </div>
+        </div>
+
+        <!-- Past / All Bookings List Container -->
+        <h3 style="font-size:1.2rem; color:#0b2a55; margin:24px 0 14px;">Your Trip Records</h3>
+        <div id="customerBookingsList">
+          <!-- Injected via JavaScript -->
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       VIEW: DRIVER PARTNER APP (#driver-app)
+       ========================================================================== -->
+  <main id="view-driver-app" class="app-view" style="display:none;">
+    <section class="section-pad">
+      <div class="container">
+        <div class="section-head" style="margin-bottom:24px;">
+          <span class="section-tag">Driver Partner Portal</span>
+          <h2 class="section-title">Driver Mobile Companion</h2>
+          <p class="section-subtitle">Real-time smartphone view used by our chauffeurs to receive trips, navigate via Google Maps, and broadcast live GPS.</p>
+        </div>
+
+        <!-- Smartphone Frame Simulation -->
+        <div class="driver-app-frame">
+          <div class="driver-app-header">
+            <div>
+              <div style="font-size:0.7rem; color:#f59e0b; text-transform:uppercase; font-weight:700;">Rajputana Driver Companion</div>
+              <h4 style="color:#ffffff; font-size:1rem; margin:0;">Chauffeur Dashboard</h4>
+            </div>
+            <select id="driverSelectDropdown" style="background:#163e77; color:#fff; border:1px solid #1d4ed8; padding:6px 10px; border-radius:6px; font-size:0.82rem; font-weight:600;">
+              <option value="drv-01">Kalu Singh Bankawat (9829837082)</option>
+              <option value="drv-02" selected>Kuldeep Singh Bankawat (8107841422)</option>
+            </select>
+          </div>
+
+          <div class="driver-app-body">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+              <span style="font-size:0.8rem; font-weight:700; color:#0b2a55;">Assigned Trips for Today</span>
+              <span style="font-size:0.72rem; background:#dcfce7; color:#15803d; padding:2px 8px; border-radius:999px; font-weight:700;">ONLINE (GPS ACTIVE)</span>
+            </div>
+
+            <!-- List of Driver Trips -->
+            <div id="driverTripsList">
+              <!-- Injected via JavaScript driver.js -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       VIEW: ADMIN COMMAND CENTRE (#admin)
+       ========================================================================== -->
+  <main id="view-admin" class="app-view" style="display:none;">
+    <section class="section-pad">
+      <div class="container">
+        
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; margin-bottom:28px;">
+          <div>
+            <span class="section-tag">Central Command &amp; Logistics</span>
+            <h2 class="section-title" style="margin-bottom:4px;">Rajputana Admin Dashboard</h2>
+            <p style="font-size:0.88rem; color:#64748b;">Manage bookings, driver allocations, fleet pricing, and export accounting records.</p>
+          </div>
+          <div style="display:flex; gap:10px;">
+            <button class="btn btn-navy" id="btnExportCsv">📥 Export Bookings (CSV)</button>
+            <a href="#book" class="btn btn-primary">+ New Booking</a>
+          </div>
+        </div>
+
+        <!-- 4 KPI Metrics -->
+        <div class="admin-metrics-row">
+          <div class="metric-card">
+            <span>Total Bookings</span>
+            <b id="metricTotalBookings">0</b>
+          </div>
+          <div class="metric-card">
+            <span>Total Gross Revenue</span>
+            <b id="metricTotalRevenue" style="color:#059669;">₹0</b>
+          </div>
+          <div class="metric-card">
+            <span>Active / Enroute Trips</span>
+            <b id="metricActiveTrips" style="color:#1d4ed8;">0</b>
+          </div>
+          <div class="metric-card">
+            <span>Completed Trips</span>
+            <b id="metricCompletedTrips" style="color:#d97706;">0</b>
+          </div>
+        </div>
+
+        <!-- Bookings Filter Bar -->
+        <div class="card" style="background:#fff; border-radius:12px; padding:16px; margin-bottom:20px; border:1px solid #e2e8f0; display:flex; gap:14px; flex-wrap:wrap;">
+          <input type="text" id="adminBookingSearch" class="form-control" placeholder="Search customer, phone, booking ID, pickup..." style="flex-grow:1; min-width:240px;">
+          <select id="adminStatusFilter" class="form-control" style="max-width:200px;">
+            <option value="all">All Trip Statuses</option>
+            <option value="Driver Assigned">Driver Assigned</option>
+            <option value="Driver on Way">Driver on Way</option>
+            <option value="Trip Started">Trip Started</option>
+            <option value="Completed">Completed</option>
+            <option value="Confirmed">Confirmed</option>
+          </select>
+        </div>
+
+        <!-- Bookings Data Table -->
+        <div class="admin-table-wrap" style="margin-bottom:36px;">
+          <table class="routes-table">
+            <thead>
+              <tr>
+                <th>Booking ID</th>
+                <th>Customer</th>
+                <th>Route (Pickup ➔ Drop)</th>
+                <th>Date / Time</th>
+                <th>Vehicle &amp; Pax</th>
+                <th>Fare &amp; Payment</th>
+                <th>Trip Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="adminBookingsTableBody">
+              <!-- Injected by admin.js -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Fleet & Driver Operations 2-Column Grid -->
+        <div style="display:grid; grid-template-columns:1.2fr 0.8fr; gap:24px;">
+          <div>
+            <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:14px;">Fleet Status &amp; Dynamic Rates</h3>
+            <div id="adminFleetGrid" style="display:grid; grid-template-columns:1fr 1fr; gap:14px;">
+              <!-- Injected by admin.js -->
+            </div>
+          </div>
+          <div>
+            <h3 style="font-size:1.25rem; color:#0b2a55; margin-bottom:14px;">Chauffeur Roster</h3>
+            <div class="card" style="background:#fff; border-radius:12px; border:1px solid #e2e8f0; padding:10px;">
+              <div id="adminDriverList">
+                <!-- Injected by admin.js -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       AI TRAVEL ASSISTANT FLOATING WIDGET
+       ========================================================================== -->
+  <div class="ai-widget-floating">
+    <button class="ai-toggle-btn" id="aiToggleBtn" aria-label="Open Travel Genie AI Chatbot" title="Chat with Rajputana Travel Genie">
+      ✨
+    </button>
+  </div>
+
+  <!-- Chat Window -->
+  <div class="ai-chat-window hidden" id="aiChatWindow">
+    <div class="ai-chat-head">
+      <div>
+        <h4>✨ Rajputana Travel Genie</h4>
+        <small>AI Rajasthan Tour &amp; Cab Expert</small>
+      </div>
+      <button class="ai-close-btn" id="aiCloseBtn">✕</button>
+    </div>
+
+    <!-- Quick Suggested Prompt Chips -->
+    <div class="ai-prompt-chips" id="aiPromptChips">
+      <!-- Injected by ai-assistant.js -->
+    </div>
+
+    <div class="ai-chat-body" id="aiChatBody">
+      <!-- Messages injected dynamically -->
+    </div>
+
+    <div class="ai-chat-foot">
+      <input type="text" id="aiInput" class="ai-chat-input" placeholder="Ask about Jaipur tours, fares, cabs...">
+      <button class="ai-chat-send" id="aiSendBtn">➔</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODALS: RAZORPAY SIMULATOR, SUCCESS, ASSIGN DRIVER
+       ========================================================================== -->
+  
+  <!-- Razorpay Realistic Simulator Modal -->
+  <div class="modal-overlay" id="razorpayModal">
+    <div class="modal-dialog" style="max-width:440px;">
+      <div class="razorpay-sim-header">
+        <div>
+          <span class="razorpay-logo">Razorpay</span>
+          <div style="font-size:0.75rem; color:#cbd5e1;">Trusted Payment Gateway</div>
+        </div>
+        <div style="text-align:right;">
+          <span style="font-size:0.72rem; color:#94a3b8;">Amount Payable</span>
+          <div id="rzpAmountSpan" style="font-size:1.15rem; font-weight:800; color:#fff;">₹1,638</div>
+        </div>
+      </div>
+      <div class="modal-body" style="padding:20px;">
+        <p style="font-size:0.85rem; color:#475569; margin-bottom:14px;">
+          Select your simulated payment method for Rajputana Tour &amp; Travellers:
+        </p>
+
+        <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:18px;">
+          <label style="border:1px solid #e2e8f0; border-radius:8px; padding:10px; display:flex; align-items:center; gap:10px; cursor:pointer;">
+            <input type="radio" name="rzp_method" value="UPI QR (GPay / PhonePe / Paytm)" checked>
+            <div>
+              <strong style="font-size:0.88rem; color:#0b2a55;">UPI QR Code (Instant Approval)</strong>
+              <small style="color:#64748b; display:block;">GPay, PhonePe, Paytm, BHIM</small>
+            </div>
+          </label>
+          <label style="border:1px solid #e2e8f0; border-radius:8px; padding:10px; display:flex; align-items:center; gap:10px; cursor:pointer;">
+            <input type="radio" name="rzp_method" value="Credit / Debit Card">
+            <div>
+              <strong style="font-size:0.88rem; color:#0b2a55;">Debit / Credit Card (Visa / Mastercard)</strong>
+              <small style="color:#64748b; display:block;">Domestic &amp; International cards accepted</small>
+            </div>
+          </label>
+          <label style="border:1px solid #e2e8f0; border-radius:8px; padding:10px; display:flex; align-items:center; gap:10px; cursor:pointer;">
+            <input type="radio" name="rzp_method" value="NetBanking">
+            <div>
+              <strong style="font-size:0.88rem; color:#0b2a55;">NetBanking</strong>
+              <small style="color:#64748b; display:block;">SBI, HDFC, ICICI, Axis &amp; 50+ Banks</small>
+            </div>
+          </label>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-outline" style="flex:1;" onclick="window.closeRazorpayModal()">Cancel</button>
+          <button class="btn btn-primary" style="flex:2;" onclick="window.simulateRazorpaySuccess()">Simulate Pay Success</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Booking Success Modal -->
+  <div class="modal-overlay" id="bookingSuccessModal">
+    <div class="modal-dialog" style="max-width:540px;">
+      <div class="modal-head" style="background:#059669;">
+        <h4>🎉 Booking Successfully Confirmed!</h4>
+        <button class="modal-close" onclick="window.closeSuccessModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="successBookingDetails">
+          <!-- Injected dynamically -->
+        </div>
+        <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap;">
+          <a href="#" id="btnSuccessWhatsApp" target="_blank" class="btn btn-whatsapp" style="flex:1;">
+            💬 Open in WhatsApp
+          </a>
+          <button class="btn btn-navy" style="flex:1;" onclick="window.closeSuccessModal()">
+            Go to My Bookings &amp; GPS ➔
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Assign Driver Modal -->
+  <div class="modal-overlay" id="assignDriverModal">
+    <div class="modal-dialog" style="max-width:420px;">
+      <div class="modal-head">
+        <h4>Assign Chauffeur</h4>
+        <button class="modal-close" onclick="document.getElementById('assignDriverModal').classList.remove('show')">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>Select Available Chauffeur:</label>
+          <select id="modalDriverSelect" class="form-control">
+            <!-- Injected by admin.js -->
+          </select>
+        </div>
+        <div style="display:flex; gap:10px; margin-top:20px;">
+          <button class="btn btn-outline" style="flex:1;" onclick="document.getElementById('assignDriverModal').classList.remove('show')">Cancel</button>
+          <button class="btn btn-primary" style="flex:1;" onclick="window.confirmAssignDriver()">Confirm Assignment</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Floating Conversion Bar -->
+  <div class="floating-actions-bar">
+    <div class="floating-actions-inner">
+      <a href="tel:9829837082" class="btn btn-navy btn-sm" style="padding:8px;">📞 Call</a>
+      <a href="https://wa.me/919829837082" target="_blank" class="btn btn-whatsapp btn-sm" style="padding:8px;">💬 WhatsApp</a>
+      <a href="#book" class="btn btn-primary btn-sm" style="padding:8px;">⚡ Book</a>
+    </div>
+  </div>
+
+  <!-- Master Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <div class="footer-col footer-brand-col">
+          <div class="footer-brand-box">
+            <img src="assets/logo.png" alt="Rajputana Logo" class="footer-logo-img">
+            <div class="footer-brand-text">
+              <h3 class="footer-brand-title">RAJPUTANA TOUR &amp; TRAVELLERS</h3>
+              <span class="footer-brand-subtitle">Jaipur, Rajasthan • Service Available All India</span>
+            </div>
+          </div>
+          <p style="font-size:0.85rem; color:#94a3b8; line-height:1.6; margin-bottom:16px;">
+            Premier taxi and Tempo Traveller rental enterprise in Jaipur. Over 10 years of trusted travel operations with verified chauffeurs, transparent pricing, and 24x7 client support.
+          </p>
+          <div style="font-size:0.82rem; color:#cbd5e1;">
+            <div>📍 Plot No. 14, Rajputana House, Opp. Sindhi Camp / Airport Link Road, Jaipur - 302001</div>
+            <div style="margin-top:4px;">📞 Hotline: +91 9829837082, +91 8107841422</div>
+            <div style="margin-top:4px;">✉️ Email: bannasandeep7568@gmail.com</div>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fleet">Our Fleet (Innova, Dzire, Tempo)</a></li>
+            <li><a href="#services">Travel Services</a></li>
+            <li><a href="#tours">Rajasthan Tour Packages</a></li>
+            <li><a href="#routes">Tariff &amp; Outstation Routes</a></li>
+            <li><a href="#book">Instant Direct Booking</a></li>
+            <li><a href="#my-bookings">Track My Booking &amp; GPS</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Top Tour Destinations</h4>
+          <ul class="footer-links">
+            <li><a href="#book">Jaipur Local Sightseeing (8hr/80km)</a></li>
+            <li><a href="#book">Jaipur to Udaipur Taxi</a></li>
+            <li><a href="#book">Jaipur to Jodhpur &amp; Jaisalmer Safari</a></li>
+            <li><a href="#book">Jaipur to Pushkar &amp; Ajmer Sharif</a></li>
+            <li><a href="#book">Ranthambore Tiger Safari Tour</a></li>
+            <li><a href="#book">Khatu Shyam Ji &amp; Salasar Balaji</a></li>
+            <li><a href="#book">Jaipur Airport 24x7 Cab Pickup</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Business Hours &amp; Policies</h4>
+          <p style="font-size:0.85rem; color:#94a3b8; margin-bottom:10px;">
+            🕒 <strong>Booking Support:</strong> 24 Hours, 7 Days a week<br>
+            💳 <strong>Payment Modes:</strong> Razorpay (UPI, Cards, NetBanking), Cash to Driver<br>
+            🛡️ <strong>Safety Guarantee:</strong> Sanitized AC Cabs, Verified Police-checked Drivers
+          </p>
+          <div style="background:rgba(255,255,255,0.06); padding:10px; border-radius:8px; border:1px solid rgba(255,255,255,0.1); font-size:0.75rem; color:#94a3b8;">
+            Advance payment is completely optional. Free cancellation support up to 6 hours before pickup.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Rajputana Tour &amp; Travellers. All Rights Reserved. Crafted with Royal Pride for Rajasthan Travel.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Leaflet JS for Live GPS Tracking -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Application Modules -->
+  <script src="js/data.js?v=20261018_1130"></script>
+  <script src="js/ai-assistant.js?v=20261018_1130"></script>
+  <script src="js/driver.js?v=20261018_1130"></script>
+  <script src="js/admin.js?v=20261018_1130"></script>
+  <script src="js/app.js?v=20261018_1130"></script>
+  <script src="js/3d-effects.js?v=20261018_1130"></script>
+
+</body>
+</html>
